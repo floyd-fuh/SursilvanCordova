@@ -1,0 +1,4 @@
+#Wed Jul 11 14:41:29 CEST 2018
+base.0=/Users/user/Research/3Mobile_Plattforms/vallader-app/cordova/Sursilvan/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/Users/user/Research/3Mobile_Plattforms/vallader-app/cordova/Sursilvan/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex

@@ -1,0 +1,132 @@
+{
+  "name": "cordova-plugin-inappbrowser",
+  "version": "3.0.0",
+  "description": "Cordova InAppBrowser Plugin",
+  "types": "./types/index.d.ts",
+  "cordova": {
+    "id": "cordova-plugin-inappbrowser",
+    "platforms": [
+      "android",
+      "browser",
+      "ios",
+      "osx",
+      "windows"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache/cordova-plugin-inappbrowser.git"
+  },
+  "bugs": {
+    "url": "https://issues.apache.org/jira/browse/CB"
+  },
+  "keywords": [
+    "cordova",
+    "in",
+    "app",
+    "browser",
+    "inappbrowser",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-browser",
+    "cordova-ios",
+    "cordova-osx",
+    "cordova-windows"
+  ],
+  "scripts": {
+    "test": "npm run eslint",
+    "eslint": "node node_modules/eslint/bin/eslint www && node node_modules/eslint/bin/eslint src && node node_modules/eslint/bin/eslint tests"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "0.2.3": {
+        "cordova": ">=3.1.0"
+      },
+      "4.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-config-semistandard": "^11.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "homepage": "https://github.com/apache/cordova-plugin-inappbrowser#readme",
+  "_id": "cordova-plugin-inappbrowser@3.0.0",
+  "_shasum": "d4ae00d36676210751057ad258ae4ad4a9161ada",
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-inappbrowser/-/cordova-plugin-inappbrowser-3.0.0.tgz",
+  "_from": "cordova-plugin-inappbrowser@3.0.0",
+  "_npmVersion": "3.10.10",
+  "_nodeVersion": "6.6.0",
+  "_npmUser": {
+    "name": "stevegill",
+    "email": "stevengill97@gmail.com"
+  },
+  "dist": {
+    "shasum": "d4ae00d36676210751057ad258ae4ad4a9161ada",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-inappbrowser/-/cordova-plugin-inappbrowser-3.0.0.tgz",
+    "fileCount": 63,
+    "unpackedSize": 603146,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa1Y60CRA9TVsSAnZWagAAL4cP/Rl1DVpYXrPtyXC+JRvb\ntyJ9aDPd2dAf04yNUya7SuvgHplV81EOu5CWJvxtinFq5uFWwABcnPr7pmeW\n16R0dxZ0U+WCzN1tEJzWJhZRJi78u8HnflwxvqoAYxeDgtwLLZvcy6SuBgqK\nhayYJYNvkgok95x/sSud3La7IJw5s+CTe6T48J8d18NxqQwBCcRLw7m8+044\na07/2fU9rReNmHwkyYNIbqCCFbU1w324UJP3D+UGSv/cORPJRFTi3YIyGgcY\nET8k4YNqw2GDZEx/oDCvphimrOz7MkhOU7HagEym2vIn2x9d/AnBDBmxO3J9\nKgXyJKLJX8d8lw5WxZuD01G8IbSKqPhRgEU2kp6ogA4j3slex155kG8LCD4N\nBv4NjqEJ8Fs4F3LIu7pkMuKVnaCKYPxE5ZClI8zVyAX9WZxd34Ulm+uhyTRL\nxJN2ORbFQdnvH4esyFosFJiBFYFq07s2CKwAj+ep5SEWXWnwxDjiDK4xm2vY\nDk4mFWYeBz/T1/W8ckLIEP8dr+vnAK/O6sYgNj5LCFl2IF9qfuLmOrKQybtw\no0TTU71OUtT6phJ0HllGcYPqZIWiM+KhEQaZD4izmRIsCPcHgPQisX0AkeBy\nXk+/d4DFq/U9phG5ORMv/GAAeSTaTH9oUcOVfzgUmli8N2wML6ZQXYcbf1Re\nzSEe\r\n=ilrR\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "maintainers": [
+    {
+      "email": "bowserj@apache.org",
+      "name": "bowserj"
+    },
+    {
+      "email": "csantana23@gmail.com",
+      "name": "csantanapr"
+    },
+    {
+      "email": "maj.fil@gmail.com",
+      "name": "filmaj"
+    },
+    {
+      "email": "jcesarmobile@gmail.com",
+      "name": "jcesarmobile"
+    },
+    {
+      "email": "kotikov.vladimir@gmail.com",
+      "name": "kotikov.vladimir"
+    },
+    {
+      "email": "simon.macdonald@gmail.com",
+      "name": "macdonst"
+    },
+    {
+      "email": "purplecabbage@gmail.com",
+      "name": "purplecabbage"
+    },
+    {
+      "email": "sergei.grebnov@gmail.com",
+      "name": "sgrebnov"
+    },
+    {
+      "email": "shazron@gmail.com",
+      "name": "shazron"
+    },
+    {
+      "email": "stevengill97@gmail.com",
+      "name": "stevegill"
+    },
+    {
+      "email": "suraj.pindoria@yahoo.com",
+      "name": "surajpindoria"
+    }
+  ],
+  "directories": {},
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-inappbrowser_3.0.0_1523945138829_0.06720054647621332"
+  }
+}
