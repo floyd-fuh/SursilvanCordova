@@ -1,3 +1,5 @@
+Due to no one in the Romansh community being able to take over the mobile apps with hundred of installations and me simply not having the time to maintain it, this project is now archived and unmaintained.
+
 # SursilvanCordova
 
 Sursilvan Romansh - German dictionary app for <CUSTOMIZE_HERE>Android/iOS. You can type a word in German or Sursilvan Romansh and it will display some results from web sources and link to the original results.
